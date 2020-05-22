@@ -1,0 +1,953 @@
+
+
+/*----------------Шрифты--------------------*/
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url('../fonts/OpenSans-Regular.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Open Sans Bold'), local('OpenSans-Bold'), url('../fonts/OpenSans-Bold.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Open Sans Bold'), local('OpenSans-ExtraBold'), url('../fonts/OpenSans-ExtraBold.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Open Sans Bold'), local('OpenSans-Italic'), url('../fonts/OpenSans-Italic.ttf') format('ttf');
+}
+
+/*----------------Тело--------------------*/
+
+body {
+  font-family: 'Open Sans', Helvetica Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  background-color: white;
+}
+
+.wrapper{
+  min-height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.container{
+  max-width: 1249px;
+  margin: 0px auto;
+}
+/*----информация о шапке ----*/
+
+
+.header__row{
+  background-color: #000000;
+  opacity: 0.8;
+}
+
+.header__list{
+  display: flex;
+  font-family: 'Open Sans', Helvetica Arial, sans-serif;
+  height: 89px;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  list-style-type: none;
+  justify-content: center;
+  line-height: 24px;
+
+}
+
+li {
+  padding: 0px 0px 0px 3px;
+  margin-right: 30px;
+  padding-top: 29px;
+}
+
+.hover:hover{
+  background-color: red;
+  height: 55px;
+  width: 89px;
+}
+
+.content {
+  flex: 1 1 auto;
+  background-color: #F6F2F2;
+}
+
+/*----информация о параграфе 1 ----*/
+
+.container3 {
+  max-width: 1249px;
+  margin: 0px auto;
+  padding: 102px 0px 0px 0px;
+
+}
+
+.paragraph1__row{
+  display: flex;
+  justify-content: space-between;
+}
+
+.paragraph1__container{
+  display: flex;
+  flex-direction: column;
+}
+
+.paragraph1__header {
+  font-family: 'Open Sans', Helvetica Arial, sans-serif;
+  font-weight: 800;
+  font-size: 60px;
+  text-transform: uppercase;
+
+  margin-top: 20px;
+  max-width: 618px;
+  max-height: 117px;
+  line-height: 72px;
+}
+
+.paragraph1__text{
+  font-family: 'Open Sans', Helvetica Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 27.99px;
+  margin-top: 36.52px;
+  max-height: 73px;
+  max-width: 544.85px;
+}
+
+.paragraph1__button {
+  font-family: 'Open Sans', Helvetica Arial, sans-serif;
+  color: #FFFFFF;
+  font-size: 18.04px;
+  font-weight: bold;
+  margin-top: 77.87px;
+  margin-left: 64px;
+  border: 5px;
+  background-color: red;
+  width: 230px;
+  height: 58px;
+  text-align: center;
+  line-height: 58px;
+  letter-spacing: 0.32px;
+  margin-bottom: 138px;
+
+}
+
+.paragraph1__img {
+  margin-top: 36.52px;
+}
+
+
+
+/*----информация о параграфе 2 ----*/
+
+.container4 {
+  max-width: 1249px;
+  max-height: 710px;
+  margin: 0px auto;
+  background-color: white;
+}
+
+.paragraph2 {
+  margin-top: 50px;
+}
+
+.paragraph2__row{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 810px;
+  background-color: white;
+
+
+}
+
+
+.paragraph2__container{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 150px;
+
+}
+
+
+.paragraph2__header {
+  font-family: 'Open Sans', Helvetica Arial, sans-serif;
+  font-weight: bold;
+  font-size: 42.19px;
+  text-transform: uppercase;
+  letter-spacing: 0.42px;
+
+  margin-top: 0px;
+  max-width: 618px;
+  max-height: 117px;
+  line-height: 72px;
+}
+
+
+.paragraph2__text{
+  font-family: 'Open Sans', Helvetica Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 28px;
+  margin-top: 50.53px;
+  max-height: 98px;
+  max-width: 539px;
+
+}
+
+
+.paragraph2_button {
+    font-family: 'Open Sans', Helvetica Arial, sans-serif;
+    color: red;
+    font-style: normal;
+    font-size: 18.04px;
+    font-weight: bold;
+    margin-top: 64px;
+    margin-left: 64px;
+    border-width:10px;
+    border: 2px solid red;
+    text-align: center;
+    width: 230px;
+    height: 58px;
+    line-height: 58px;
+    letter-spacing: 0.32px;
+    border-radius: 10px;
+}
+
+.paragraph2__container2{
+  display: flex;
+  height:691px;
+  width: 551px;
+  margin-top: 195px;
+
+}
+
+.paragraph2__body{
+  display: flex;
+  flex-wrap: wrap;
+  height: 520px;
+
+}
+
+.paragraph2__groupholder{
+  width: 50%;
+}
+
+.paragraph2__about {
+  font-family: 'Open Sans', Helvetica Arial, sans-serif;
+  font-size: 24.07px;
+  font-weight: 500;
+  margin-top: 32px;
+}
+
+.paragraph2__textabout {
+  font-family: 'Open Sans', Helvetica Arial, sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 28px;
+  margin-top: 13px;
+  margin-bottom: 25px;
+
+}
+
+.paragraph2__img {
+  height: 40px;
+  width: 301px;
+}
+
+
+.hl {
+  border-top: 2px solid #ECECEC;
+  width: 1251px;
+  margin-top: 170px;
+}
+
+/*----информация о заголовке части 3 ----*/
+
+.paragraph3 {
+  margin-top: 104px;
+}
+
+.container5 {
+  max-width: 1249px;
+  max-height: 691px;
+  margin: 0px auto;
+  background-color: white;
+}
+
+
+.paragraph3__row{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  height: 120px;
+
+}
+
+
+.paragraph3__container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 652px;
+  background-color: white;
+}
+
+
+.paragraph3__header {
+  font-family: 'Open Sans', Helvetica Arial, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 41px;
+  text-transform: uppercase;
+  width: 500px;
+  height: 40px;
+  letter-spacing: 0.38px;
+  text-align: center;
+  background-color: white;
+  margin-top: 15px;
+}
+
+
+.paragraph3__text {
+  font-family: 'Open Sans', Helvetica Arial, sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  line-height: 28px;
+  margin-top: 12px;
+  max-height: 98px;
+  max-width: 900px;
+  text-align: center;
+  background-color: white;
+}
+
+
+.line {
+  border-top: 2px solid #FF2D2D;
+  width: 134px;
+  margin-top: 34px;
+  background-color: white;
+
+}
+
+
+/*----информация о списке части 3 ----*/
+
+.container6 {
+  max-width: 1249px;
+  margin: 0px auto;
+  background-color: white;
+}
+
+
+.header__row2{
+  background-color: #F2F2F2;
+  opacity: 0.8;
+  max-height: 691px;
+}
+
+.header__list2{
+  display: flex;
+  font-family: 'Open Sans', Helvetica Arial, sans-serif;
+  height: 24px;
+  font-style: normal;
+  font-size: 22px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: black;
+  list-style-type: none;
+  justify-content: center;
+  line-height: 24px;
+  background-color: white;
+  margin-bottom: 85px;
+
+}
+
+.header__body2 {
+  background-color: white;
+
+}
+
+.list {
+  padding: 0px 0px 0px 3px;
+  margin-right: 30px;
+  padding-top: 29px;
+  background-color: white;
+}
+
+.list-red {
+  color: red;
+}
+
+
+
+.container7 {
+  max-width: 1249px;
+  margin: 0px auto;
+  background-color: #F2F2F2;
+}
+
+.paragraph4__row {
+}
+
+.paragraph4__container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 683px;
+  width: 1400px;
+  background-color: white;
+
+}
+
+
+.paragraph4__img {
+  margin-right: 20px;
+
+}
+
+
+
+/*----информация о части 4 ----*/
+
+
+.container8 {
+  max-width: 1249px;
+  max-height: 691px;
+  margin: 0px auto;
+  background-color: white;
+}
+
+
+.paragraph5__container {
+  display: flex;
+  flex-direction: column;
+  width: 478px;
+}
+
+
+.paragraph5__header{
+  font-family: 'Open Sans', Helvetica Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 41px;
+  margin-top: 100px;
+  letter-spacing: 0.3834px;
+}
+
+.paragraph5__text {
+  margin-top: 34px;
+  font-family: 'Open Sans', Helvetica Arial, sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  padding: 0px 0px 0px 12px;
+
+}
+
+.line3{
+  position: absolute;
+  width: 134px;
+  height: 2px;
+  background-color: #FF2D2D;
+  margin-left: 12px;
+  margin-top: 37px;
+
+}
+
+
+
+/*----информация о части 4 картинки ----*/
+
+.container9 {
+  display: flex;
+  max-width: 1249px;
+  max-height: 691px;
+  margin: 0px auto;
+  background-color: white;
+}
+
+
+.paragraph6 {
+  margin-top: 83px;
+}
+
+.paragraph6__img {
+  margin-top: 30px;
+  margin-right: 15px;
+}
+
+.paragraph7__container {
+ margin-left: 50px;
+}
+
+.paragraph7_imgcont {
+  display: flex;
+  justify-content: space-between;
+
+
+}
+
+
+
+.imagebox {
+  position: relative;
+  border: 2px solid black;
+  bottom: 43px;
+  right: 0px;
+  height: 37px;
+  text-align: center;
+  line-height: 32px;
+  background-color: black;
+  opacity: 0.5;
+  font-family: 'Open Sans', Helvetica Arial, sans-serif;
+  color: white;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 18.0762px;
+}
+
+.paragraph7__img {
+  margin-left: 28px;
+}
+
+
+
+.header__list3{
+  display: flex;
+  font-family: 'Open Sans', Helvetica Arial, sans-serif;
+  height: 24px;
+  font-style: italic;
+  font-size: 18px;
+  font-weight: 400;
+  color: black;
+  list-style-type: none;
+  justify-content: center;
+  line-height: 24px;
+  justify-content: space-between;
+  margin-bottom: 63.5px;
+  margin-top: 25px;
+
+}
+
+
+.paragraph7__header{
+  font-family: 'Open Sans', Helvetica Arial, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30.127px;
+  line-height: 0px;
+  margin-top: 60px;
+
+}
+
+
+.paragraph7__text{
+  font-family: 'Open Sans', Helvetica Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15.9953px;
+  line-height: 28px;
+  margin-top: 25px;
+  width: 662.85px;
+}
+
+
+/*----информация о части с кнопкой Subscribe ----*/
+
+
+.container10 {
+  display: flex;
+  max-width: 1249px;
+  max-height: 691px;
+  margin: 0px auto;
+  background-color: black;
+  color: white;
+}
+
+
+.paragraph7   {
+  margin-top: 83px;
+  background-color: black;
+  opacity: 0.8;
+}
+
+.paragraph8__header {
+  font-family: 'Open Sans', Helvetica Arial, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 24px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 1.05px;
+  height: 43px;
+  width: 1329px;
+  margin-top: 220px;
+}
+
+
+.paragraph8__text {
+  font-family: 'Open Sans', Helvetica Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15.9953px;
+  line-height: 28px;
+  margin-top: 17px;
+  align-items: center;
+  text-align: center;
+}
+
+.paragraph8__container2{
+  display: flex;
+  margin-top: 57px;
+  justify-content: center;
+}
+
+.emailbutton form{
+  width: 524px;
+  height: 82px;
+  background-color: white;
+  align-items: center;
+  margin-right: 20px;
+  margin-bottom: 125px;
+}
+
+.emailtext {
+  font-family: 'Open Sans', Helvetica Arial, sans-serif;
+  align-items: center;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 50px;
+  margin-left: 38px;
+  color: #2C2C2C;
+}
+
+.subscribebutton{
+  display: flex;
+  width: 217px;
+  height: 82px;
+  background-color: #FF2D2D;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.subscribetext {
+  font-family: 'Open Sans', Helvetica Arial, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17.9026px;
+  line-height: 34px;
+  letter-spacing: 0.317046px;
+  text-transform: uppercase;
+}
+
+
+
+
+/*----информация о части Get in Touch ----*/
+
+
+.paragraph8 {
+  margin-top: 83px;
+}
+
+.paragraph9 {
+
+}
+
+.container11 {
+  display: flex;
+  max-width: 1249px;
+  height: 291px;
+  margin: 0px auto;
+  background-color: white;
+}
+
+.paragraph9__row {
+  text-align: left;
+  width: 752.85px;
+  flex-direction: column;
+}
+
+.paragraph9__header {
+  font-family: 'Open Sans', Helvetica Arial, sans-serif;
+  width: 950px;
+  height: 42px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 41.9876px;
+  letter-spacing: 0.3834px;
+  text-transform: uppercase;
+}
+
+.paragraph9__text {
+  margin-top: 45px;
+  font-family: 'Open Sans', Helvetica Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15.9953px;
+  line-height: 28px;
+  align-items: center;
+  color: black;
+  margin-left: 20px;
+}
+
+
+
+.line4 {
+  position: absolute;
+  width: 134px;
+  height: 1px;
+  background-color: red;
+  margin-left: 20px;
+  margin-top: 220px;
+}
+
+.container12 {
+  display: flex;
+  max-width: 1249px;
+  height: 143px;
+  margin: 0px auto;
+  background-color: white;
+}
+
+.paragraph10__container{
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+
+}
+
+.paragraph10__row{
+  flex-direction: row;
+}
+
+.paragraphname {
+  background: grey;
+  width: 342px;
+  height: 71px;
+  opacity: 0.5;
+  border-radius: 5px;
+}
+
+.namestyle {
+  font-family: 'Open Sans', Helvetica Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15.9134px;
+  line-height: 38px;
+  color: black;
+  background-blend-mode: normal;
+  margin-left: 50px;
+}
+
+.paragraphemail {
+  background: grey;
+  width: 342px;
+  height: 71px;
+  opacity: 0.5;
+  justify-content: center;
+  margin-bottom: 16px;
+  margin-left: 51px;
+  border-radius: 5px;
+
+}
+
+.emailstyle {
+  font-family: 'Open Sans', Helvetica Arial, sans-serif;
+  color: black;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15.9134px;
+  line-height: 65px;
+  background-blend-mode: normal;
+  margin-left: 50px;
+}
+
+
+
+.container13 {
+  display: flex;
+  max-width: 1249px;
+  height: 380px;
+  margin: 0px auto;
+  background-color: white;
+
+}
+
+.paragraph11__container {
+  display: flex;
+  flex-direction: column;
+  margin-right: 104px;
+
+}
+.typemess {
+  background-color: grey;
+  width: 734px;
+  height: 252px;
+  margin-left: 15px;
+  border-radius: 5px;
+  opacity: 0.5;
+}
+
+
+.messstyle {
+  font-family: 'Open Sans', Helvetica Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15.9134px;
+  line-height: 28px;
+  color: black;
+  margin-left: 53px;
+  margin-top: 32px;
+}
+
+.sndmsg {
+  background-color: red;
+  width: 731px;
+  height: 75px;
+  margin-top: 43px;
+  border-radius: 8px;
+  margin-left: 15px;
+}
+
+.sndmsg1 {
+  background-color: red;
+  width: 731px;
+  height: 75px;
+  margin-top: 43px;
+  border-radius: 8px;
+  margin-left: 15px;
+}
+
+.sndsmgstyle {
+  display: flex;
+  justify-content: center;
+  font-family: 'Open Sans', Helvetica Arial, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17.9026px;
+  line-height: 34px;
+  text-transform: uppercase;
+  color: white;
+}
+
+
+
+.paragraph12__row {
+  background-color: #2D2D2D;
+
+}
+
+.paragraph12__container {
+
+  width: 580px;
+  height: 485px;
+}
+
+.contactinf__header{
+  font-family: 'Open Sans', Helvetica Arial, sans-serif;
+  font-weight: bold;
+  font-size: 17.9026px;
+  line-height: 34px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.317046px;
+  text-transform: uppercase;
+  color: white;
+  margin-left: 81px;
+  margin-top: 20px;
+
+}
+
+.contactinf__text {
+  font-family: 'Open Sans', Helvetica Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  align-items: center;
+  color: white;
+  margin-left: 81px;
+}
+
+.contactinf__em {
+
+  font-family: 'Open Sans', Helvetica Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  align-items: center;
+  color: white;
+  margin-left: 81px;
+
+}
+
+.contactinf__tel {
+  font-family: 'Open Sans', Helvetica Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  align-items: center;
+  color: white;
+  margin-left: 81px;
+
+}
+
+
+
+/*----информация о футоре ----*/
+
+.container2 {
+  max-width: 1586px;
+  margin: 0px auto;
+  max-height: 113px;
+  margin-top: 107px;
+}
+
+.footer {
+  background-color: #313030;
+}
+
+.footer_row {
+  display: flex;
+  height: 113px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.footer__image {
+  margin: 0px 8.5px 0px 8.5px;
+}
+
+
+.footer__info{
+  font-size: 16px;
+  color: #B8B8B8;
+}
